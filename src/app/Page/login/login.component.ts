@@ -23,6 +23,10 @@ export class LoginComponent implements OnInit {
  LoginSubmit(){
    this.Login
    console.log(this.Login.value)
+   const authData = {
+    email: this.Login.value.username,
+    password: this.Login.value.password,
+  };
  }
 
 }
