@@ -7,13 +7,17 @@ import { HomeComponent } from './Page/home/home.component';
 import { LoginComponent } from './Page/login/login.component';
 import { RegistrationComponent } from './Page/registration/registration.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HeaderComponent } from './Page/header/header.component';
+import { FooterComponent } from './Page/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
