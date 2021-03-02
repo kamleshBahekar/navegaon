@@ -45,7 +45,7 @@ export class UserServiceService {
   logOut() {
     this.storage.deleteAll('../');
     this.storage.deleteAll('/');
-    this.Router.navigate(["/auth/login"]);
+    this.Router.navigate([""]);
   }
 
 }
